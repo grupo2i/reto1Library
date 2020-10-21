@@ -34,7 +34,6 @@ public class User implements Serializable{
     private Date lastAccess;
     private Date lastPasswordChange;
 
-    
     //Getter methods...
     
     public Integer getId() {
