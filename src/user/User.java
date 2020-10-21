@@ -13,11 +13,11 @@ import java.sql.Date;
  * @author aitor
  */
 public class User implements Serializable{
-    enum UserStatus{
+    public enum UserStatus{
         ENABLED,
         DISABLED
     }
-    enum UserPrivilege{
+    public enum UserPrivilege{
         USER,
         ADMIN
     }
