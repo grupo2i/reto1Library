@@ -8,8 +8,8 @@ package dummy;
 import java.io.Serializable;
 
 /**
- *
- * @author Martin Angulo <martin.angulo at tartanga.eus>
+ * Dummy data class for Message testing purposes.
+ * @author Martin Angulo
  */
 public class DataTest implements Serializable {
     private Integer num;
