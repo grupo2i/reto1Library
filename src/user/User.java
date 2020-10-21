@@ -34,12 +34,12 @@ public class User implements Serializable{
     private Date lastAccess;
     private Date lastPasswordChange;
 
-    public User(Integer id, String login, String email, String fullname, String password, 
+    public User(Integer id, String login, String email, String fullName, String password, 
                 UserStatus status, UserPrivilege privilege, Date lastAccess, Date lastPasswordChange) {
         this.id = id;
         this.login = login;
         this.email = email;
-        this.fullName = fullname;
+        this.fullName = fullName;
         this.password = password;
         this.status = status;
         this.privilege = privilege;
@@ -123,5 +123,15 @@ public class User implements Serializable{
         this.lastPasswordChange = lastPasswordChange;
     }
     
-    
+    public void printData() {        
+        System.out.println("Id: " + id);
+        System.out.println("Login: " + login);
+        System.out.println("Email: " + email);
+        System.out.println("Full Name: " + fullName);
+        System.out.println("Password: " + password);
+        System.out.println("Status: " + status);
+        System.out.println("Privilege: " + privilege);
+        System.out.println("Last Access: " + lastAccess);
+        System.out.println("Last Password Change: " + lastPasswordChange);
+    }
 }
