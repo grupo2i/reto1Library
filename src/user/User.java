@@ -34,8 +34,20 @@ public class User implements Serializable{
     private Date lastAccess;
     private Date lastPasswordChange;
 
-    //Getter methods...
+    public User(Integer id, String login, String email, String fullname, String password, 
+                UserStatus status, UserPrivilege privilege, Date lastAccess, Date lastPasswordChange) {
+        this.id = id;
+        this.login = login;
+        this.email = email;
+        this.fullName = fullname;
+        this.password = password;
+        this.status = status;
+        this.privilege = privilege;
+        this.lastAccess = lastAccess;
+        this.lastPasswordChange = lastPasswordChange;
+    }
     
+    //Getter methods...
     public Integer getId() {
         return id;
     }
