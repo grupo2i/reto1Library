@@ -5,13 +5,14 @@
  */
 package user;
 
+import java.io.Serializable;
 import java.sql.Date;
 
 /**
  *
  * @author aitor
  */
-public class User {
+public class User implements Serializable{
     enum UserStatus{
         ENABLED,
         DISABLED
