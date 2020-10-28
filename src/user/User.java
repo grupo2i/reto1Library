@@ -34,6 +34,9 @@ public class User implements Serializable{
     private Date lastAccess;
     private Date lastPasswordChange;
 
+    public User() {   
+    }
+    
     /**
      * Full user constructor.
      * @param id Id of the user.
@@ -57,6 +60,7 @@ public class User implements Serializable{
         this.privilege = privilege;
         this.lastAccess = lastAccess;
         this.lastPasswordChange = lastPasswordChange;
+        
     }
     
     //Getter methods...
