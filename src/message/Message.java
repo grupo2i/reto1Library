@@ -15,7 +15,11 @@ public class Message implements Serializable {
     public enum Type{SIGN_IN, 
                      SIGN_UP, 
                      LOG_OFF,
-                     CLOSE_CONNECTION}
+                     CLOSE_CONNECTION,
+                     USER_NOT_FOUND,
+                     PASSWORD_DOES_NOT_MATCH,
+                     USER_ALREADY_EXISTS,
+                     EMAIL_ALREADY_EXISTS}
     
     private Type type;
     private Object data;
