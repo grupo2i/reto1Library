@@ -12,7 +12,7 @@ import user.User;
  * @author aitor
  */
 public class PasswordDoesNotMatchException extends Exception{
-    public PasswordDoesNotMatchException(User user){
-        super("The user '" + user.getLogin() + "' does not match with the password.");
+    public PasswordDoesNotMatchException(){
+        super("The password does not match.");
     }
 }
