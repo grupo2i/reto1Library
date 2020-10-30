@@ -5,14 +5,12 @@
  */
 package exceptions;
 
-import user.User;
-
 /**
  *
  * @author aitor
  */
 public class UserAlreadyExistsException extends Exception{
-    public UserAlreadyExistsException(User user){
-        super("Username '" + user.getLogin() + "' is already registered.");
+    public UserAlreadyExistsException(String username){
+        super("Username '" + username + "' is already registered.");
     }
 }

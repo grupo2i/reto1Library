@@ -5,14 +5,12 @@
  */
 package exceptions;
 
-import user.User;
-
 /**
  *
  * @author aitor
  */
 public class UserNotFoundException extends Exception {
-    public UserNotFoundException(User user){
-        super("The user '" + user.getLogin() + "' was not found in the database.");
+    public UserNotFoundException(String username){
+        super("The user '" + username + "' was not found in the database.");
     }
 }

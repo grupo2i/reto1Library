@@ -5,14 +5,12 @@
  */
 package exceptions;
 
-import user.User;
-
 /**
  *
  * @author aitor
  */
 public class EmailAlreadyExistsException extends Exception{
-    public EmailAlreadyExistsException(User user){
-        super("Email '" + user.getEmail() + "' is already registered.");
+    public EmailAlreadyExistsException(String email){
+        super("Email '" + email + "' is already registered.");
     }
 }
