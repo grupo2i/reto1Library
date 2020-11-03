@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package message;
 
 import java.io.Serializable;
@@ -19,7 +14,8 @@ public class Message implements Serializable {
                      USER_NOT_FOUND,
                      PASSWORD_DOES_NOT_MATCH,
                      USER_ALREADY_EXISTS,
-                     EMAIL_ALREADY_EXISTS}
+                     EMAIL_ALREADY_EXISTS,
+                     UNEXPECTED_ERROR}
     
     private Type type;
     private Object data;
