@@ -31,7 +31,7 @@ CREATE TABLE `user` (
   `privilege` enum('USER','ADMIN') DEFAULT NULL,
   `password` varchar(30) DEFAULT NULL,
   `lastAccess` date DEFAULT NULL,
-  `lastPaswordChange` date DEFAULT NULL,
+  `lastPasswordChange` date DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
