@@ -7,6 +7,7 @@ import java.io.Serializable;
  * @author Martin Angulo
  */
 public class Message implements Serializable {
+    /** Enum with message types */
     public enum Type{SIGN_IN, 
                      SIGN_UP, 
                      LOG_OFF,
@@ -16,8 +17,9 @@ public class Message implements Serializable {
                      USER_ALREADY_EXISTS,
                      EMAIL_ALREADY_EXISTS,
                      UNEXPECTED_ERROR}
-    
+    /** Type of the message */
     private Type type;
+    /** Data Object associated with the message */
     private Object data;
     
     /**
