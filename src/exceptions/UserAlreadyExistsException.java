@@ -4,8 +4,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * exception for user already existing
- * @author aitor
+ * Exception for user already existing.
+ * @author Aitor Fidalgo
  */
 public class UserAlreadyExistsException extends Exception{
     public UserAlreadyExistsException(String username){
