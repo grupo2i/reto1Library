@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * exception for user not found
  * @author aitor
  */
 public class UserNotFoundException extends Exception {

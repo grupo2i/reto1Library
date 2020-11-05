@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * exception for user already existing
  * @author aitor
  */
 public class UserAlreadyExistsException extends Exception{

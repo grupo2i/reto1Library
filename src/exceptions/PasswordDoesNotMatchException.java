@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * exception for password not matching.
  * @author aitor
  */
 public class PasswordDoesNotMatchException extends Exception{
