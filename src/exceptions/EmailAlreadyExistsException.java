@@ -4,8 +4,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * exception for email already in use.
- * @author aitor
+ * Exception for email already in use.
+ * @author Aitor Fidalgo
  */
 public class EmailAlreadyExistsException extends Exception{
     public EmailAlreadyExistsException(String email){

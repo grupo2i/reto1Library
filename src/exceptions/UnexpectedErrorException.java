@@ -4,8 +4,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * exception for unexpected error
- * @author aitor
+ * Exception for unexpected error.
+ * @author Aitor Fidalgo
  */
 public class UnexpectedErrorException extends Exception{
     public UnexpectedErrorException(String exceptionMessage){
