@@ -9,6 +9,7 @@ import java.util.logging.Logger;
  */
 public class UnexpectedErrorException extends Exception{
     public UnexpectedErrorException(String exceptionMessage){
+        super("An unexpected error occured, please try later.");
         Logger.getLogger(UnexpectedErrorException.class.getName()).log(Level.SEVERE, exceptionMessage);
     }
 }
